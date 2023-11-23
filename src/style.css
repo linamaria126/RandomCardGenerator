@@ -1,1 +1,47 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.bg-green {
+  background-color: #0e7e12;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.card {
+  box-sizing: border-box;
+  position: relative;
+  background-color: white;
+  height: 400px;
+  width: 250px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 160px;
+}
+
+.card_red {
+  color: red;
+}
+
+.card_black {
+  color: black;
+}
+
+.top-suit {
+  position: absolute;
+  font-size: 90px;
+  top: 0;
+  left: 0;
+}
+
+.number {
+  font-size: 80px;
+  text-align: center;
+}
+
+.bottom-suit {
+  position: absolute;
+  font-size: 90px;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
